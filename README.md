@@ -1,4 +1,4 @@
-# Adding Statistics to a Table in STATA
+# Adding Statistics to a table in STATA
 
 I recently asked CSAE colleagues about the best way of adding statistics to a table in Stata, and was surprised to hear that people were doing it in a few different ways, some more complicated than others. I wanted to share some of the useful advice I received on doing this with esttab and estadd, using a very simple example that adds the following statistics:
 
