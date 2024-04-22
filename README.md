@@ -1,3 +1,6 @@
+
+![CC Graphics 2024_Statstables](https://github.com/csae-coders-corner/Adding-Statistics-to-a-Table-in-STATA/assets/148211163/1a5f598c-64ce-45fd-b358-db7d08cc9071)
+
 # Adding Statistics to a table in STATA
 
 I recently asked CSAE colleagues about the best way of adding statistics to a table in Stata, and was surprised to hear that people were doing it in a few different ways, some more complicated than others. I wanted to share some of the useful advice I received on doing this with esttab and estadd, using a very simple example that adds the following statistics:
