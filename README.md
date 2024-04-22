@@ -2,11 +2,11 @@
 
 I recently asked CSAE colleagues about the best way of adding statistics to a table in Stata, and was surprised to hear that people were doing it in a few different ways, some more complicated than others. I wanted to share some of the useful advice I received on doing this with esttab and estadd, using a very simple example that adds the following statistics:
 
-(i) the median of the control group; 
+1. the median of the control group; 
 
-(ii) the beta coefficient, in terms of the standard deviation of the control group;
+2. the beta coefficient, in terms of the standard deviation of the control group;
 
-(iii) the p-value from a simple post-estimation t-test for coefficient equality. 
+3. the p-value from a simple post-estimation t-test for coefficient equality. 
 
 
 First, generate the median of the variable X1 for the control group:
@@ -57,6 +57,6 @@ Finally, we store the results and use them in esttab:
 
 
 
-**AUTHOR: Muhammad Meki, Junior Research Fellow, Pembroke College, Oxford**
+**AUTHOR: Muhammad Meki, Junior Research Fellow, Pembroke College, Oxford,**
 
 **14 January 2019**
